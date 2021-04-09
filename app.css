@@ -1,0 +1,108 @@
+    
+    
+    *{  
+        font-family: 'Montserrat', sans-serif;
+    }
+    body {
+        height: 100%;
+        width: 100%;
+        background-image:url(backgroundd.jpg);
+        background-size: cover;
+        justify-content: center;
+    }
+    #contain{
+        display: flex;
+        background-color: #ffffff;
+        width: 470px;
+        height: 500px;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 6%;
+        align-items: center;
+        border-radius: 8px;
+    }
+    #sign-in-with{
+        display: flex;
+        height: 130px;
+        width: 100%;
+        font-size: 45px;
+        color: rgb(82, 76, 76);
+        align-items: center;
+        justify-content: center;
+    }
+    #choice{
+        display: flex;
+        height: 70px;
+        width: 77%;
+        justify-content: space-between;
+        box-shadow: black;
+    }
+    #face-book{
+        display: flex;
+        height: 50px;
+        width: 150px;
+        align-items: center;
+        justify-content: center;
+        background-color: #3B5999;
+        border:2px solid #3B5999;
+        color: #f0feff;
+        border-radius: 8px;
+    }
+    #goole{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        height: 50px;
+        width: 150px;
+        box-shadow:1px 2px #b9b5b5;
+        color:#525050;
+        background-color: #ffffff;
+        border:1px solid #cccccc;
+    }
+    #khung-thanh{
+        height: 80px;
+        font-size: 13px;
+        font-weight: 20px;
+        margin-top: 1%;
+    }
+    .nguoi_dung{
+        width: 340px;
+        height: 40px;
+        border-radius: 9px;
+    }
+    .mat_khau{
+        width: 340px;
+        height: 40px;
+        border-radius: 9px;
+    }
+    input{
+        background-color:#ebe6e6;
+    }
+    #sign-in{
+        display: flex;
+        margin-top: 2%;
+        width: 350px;
+        height: 50px;
+        background-color: #333333;
+        color:white;
+        font-size: 12px;
+        font-weight: 20px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 9px;
+    }
+    #Member{
+        display: flex;
+        width: 350px;
+        height: 50px;
+        font-size: 11px;
+        align-items: flex-end;
+        justify-content: center;
+        color: #757575;
+    }
+    a{
+        color: #757575; 
+        margin-left: 6px;
+        font-size: 11px;
+    }

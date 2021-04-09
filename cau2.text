@@ -1,0 +1,33 @@
+Tìm hiểu về OOP (Lập trình hướng đối tượng): Khái niệm OOP? Khái niệm class, object? 4 tính chất?
+
+OOP: 
+    * Khái niệm: 
+    Lập trình hướng đối tượng (OOP) là một kỹ thuật lập trình cho phép lập trình viên tạo ra các đối tượng trong code trừu tượng hóa các đối tượng.
+    Một phương pháp lập trình dựa trên khái niệm về lớp và đối tượng. OOP tập trung vào các đối tượng thao tác hơn là logic để thao tác chúng.
+
+Object:
+    Một đối tượng bao gồm 2 thông tin: thuộc tính và phương thức.
+    Thuộc tính chính là những thông tin, đặc điểm của đối tượng. Ví dụ: con người có các đặc tính như mắt, mũi, tay, chân…
+    Phương thức là những thao tác, hành động mà đối tượng đó có thể thực hiện. Ví dụ: một người sẽ có thể thực hiện hành động nói, đi, ăn, uống, . . .
+
+Lớp: 
+    Sự trừu tượng hóa của đối tượng. Những đối tượng có những đặc tính tương tự nhau sẽ được tập hợp thành một lớp.
+    => Hiểu nôm na hơn là các đối tượng có các đặc tính tương tự nhau được gom lại thành một lớp đối tượng.
+
+4 đặc tính cơ bản của OOP:
+    - Tính đóng gói (Encapsulation): Tức là trạng thái của đối tượng được bảo vệ không cho các truy cập từ code bên ngoài như thay đổi trong thái 
+    hay nhìn trực tiếp
+        => Tính chất này giúp tăng tính bảo mật cho đối tượng và tránh tình trạng dữ liệu bị hư hỏng ngoài ý muốn.
+
+    - Tính kế thừa (Inheritance): Khả năng cho phép ta xây dựng một lớp mới dựa trên các định nghĩa của một lớp đã có.
+        => Có thể chia sẻ hay mở rộng các đặc tính sẵn có mà không phải tiến hành định nghĩa lại.
+
+    - Tính đa hình (Polymorphism): Khi một tác vụ được thực hiện theo nhiều cách khác nhau. Trong Java, chúng ta sử dụng nạp chồng 
+    phương thức (method overloading) và ghi đè phương thức (method overriding) để có tính đa hình.
+        => Kết nối trễ giúp chương trình được uyển chuyển hơn, chỉ yêu cầu đối tượng cung cấp đúng phương thức cần thiết là đủ.
+        
+    -Tính trừu tượng (abstraction): Một tiến trình ẩn các chi tiết trình triển khai và chỉ hiển thị tính năng tới người dùng. Trong Java, chúng 
+    là sử dụng abstract class và abstract interface để có tính trừu tượng.
+        => Giúp bạn tập trung vào những cốt lõi cần thiết của đối tượng thay vì quan tâm đến cách nó thực hiện.
+
+
